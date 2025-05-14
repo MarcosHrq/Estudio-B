@@ -1,0 +1,271 @@
+*{
+    --cor-principal: #e1cfa3;
+    --cor-principal-clara: #f7f0de;
+    --cor-texto: rgb(40,40,40);
+    --cor-texto-fundo:#fff;
+    --cor-titulo-sec:rgb(0,0,0);
+    --cor-hover-button:#e6c470;
+    --cor-input:#edddb4;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* -------------------- INÍCIO - HEADER ---------------------- */
+
+.header{
+    display: flex;
+    /* outline: 1px red solid; */
+    padding: 1em;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+
+
+.header-marca{
+    width: 300px;
+    margin-right: 1.5em;
+
+}
+
+.header-menu{
+    display: flex;
+    gap: 2em;
+    /* outline: 1px blue solid;  */
+    justify-content: space-around; 
+    margin-right: 1em;
+
+    
+}
+
+.menu-item{
+    color: var(--cor-texto);
+    font-weight: 400;
+    display: block;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+/* -------------------- FIM - HEADER ---------------------- */
+
+
+/* -------------------- INÍCIO - HERO AREA ---------------------- */
+
+.titulo-principal{
+    background-color: var(--cor-principal);
+    color:var(--cor-texto-fundo) ;
+    text-align: center;
+    padding: .6em;
+    font-size: 4em;
+    font-weight: 300;
+
+}
+.imagem-principal{
+    width: 100%;
+}
+
+/* -------------------- FIM - HERO AREA ---------------------- */
+
+
+
+
+/* -------------------- INÍCIO - SOBRE NÓS ---------------------- */
+
+
+.titulo-secundario{
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-titulo-sec);
+    padding: 1.5em;
+
+}
+
+.paragrafo{
+    text-align: center;
+    margin: 2em;
+    font-size: 1.5em;
+    color: var(--cor-texto);
+    line-height: 1.2em;
+
+
+}
+
+.sobre-nos{
+    padding: 4em;
+}
+
+/* -------------------- FIM - SOBRE NÓS ---------------------- */
+
+
+
+/* -------------------- INÍCIO - PROJETOS ---------------------- */
+
+.projetos{
+    background-color: var(--cor-principal-clara);
+    margin-bottom: 0;
+    padding-bottom: 2em;
+}
+.projeto-card{
+    width: 28.13em;
+    
+
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projetos p {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    
+}
+
+/* -------------------- FIM - PROJETOS ---------------------- */
+
+
+
+/* -------------------- INÍCIO - PERGUNTAS FREQUENTES ---------------------- */
+
+
+.pergunta{
+    text-align: start;
+    margin: 2em 1em 0em;
+    font-size: 1.5em;
+    color: var(--cor-texto);
+    line-height: 1.2em;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.resposta {
+    margin-top: .5em;
+    margin-left: 3em;
+    font-weight: 300;
+    color: var(--cor-texto);
+    line-height: 1.2em;
+    font-size: 1.5em;
+
+
+}
+
+
+.perguntas-frequentes{
+    background-color: var(--cor-principal);
+    background-image: url('../img/perguntas.png');
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    padding: 2em 2em 5em 2em;
+    margin-top: 0;
+    
+}
+
+/* -------------------- FIM - PERGUNTAS FREQUENTES ---------------------- */
+
+
+/* -------------------- INÍCIO - CONTATO ---------------------- */
+
+.contato{
+    padding: 5em;
+}
+
+.formulario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+label{
+    font-size: 1.5em;
+    color: var(--cor-texto);
+    display: flex;
+    margin-left: 15%;
+    margin-bottom: .5em;
+    
+}
+
+input,textarea {
+  background-color: var(--cor-input);
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 70%;
+  align-self: center;
+}
+
+textarea {
+  resize: none;
+}
+
+
+button {
+  align-self: center;
+  background-color: var(--cor-principal);
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--cor-hover-button)
+}
+
+/* -------------------- FIM - CONTATO ---------------------- */
+
+
+
+
+/* ----------------- INÍCIO - FOOTER -------------------- */
+
+
+.footer {
+  background-color: black;
+  color: var(--cor-principal);
+  text-align: center;
+  padding: 2.5em 1.5em;
+}
+
+.icons-container{
+    margin-bottom: 1.5em;
+}
+
+.icons-container img{
+    width: 2.5em;
+    margin: 0 .7em;
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    
+}
+
+
+
+
+.tel-footer {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px 0;
+  
+}
+
+.endereco-footer{
+    margin: 5px 0;
+}
+
+.email-footer {
+  color: var(--cor-principal-clara);
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* -------------------- FIM - FOOTER ---------------------- */
