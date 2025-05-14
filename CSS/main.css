@@ -111,8 +111,10 @@ html {
 }
 .projeto-card{
     width: 28.13em;
-    
-
+    transition: transform 0.3s ease;
+}
+.projeto-card:hover{
+     transform: translateY(-10px);
 }
 .img-container{
     display: flex;
