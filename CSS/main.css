@@ -47,6 +47,11 @@ html {
     display: block;
     justify-content: space-around;
     font-size: 2em;
+    transition: transform 0.3s ease-in-out
+}
+
+.menu-item:hover{
+     transform: translateY(-10px);
 }
 
 /* -------------------- FIM - HEADER ---------------------- */
