@@ -51,7 +51,8 @@ html {
 }
 
 .menu-item:hover{
-     transform: translateY(-10px);
+    transform: translateY(-10px);
+    
 }
 
 /* -------------------- FIM - HEADER ---------------------- */
