@@ -348,7 +348,7 @@ button:hover {
         display: flex;
         gap: 2em;
         justify-content: space-around; 
-        margin-right: 1em;
+        margin-right: 0;
 
     }
 
