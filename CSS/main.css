@@ -20,13 +20,14 @@ html {
     padding: 1em;
     justify-content: space-between;
     align-items: end;
+    flex-wrap: wrap;
 
 }
 
 
 
 .header-marca{
-    width: 15%;
+    width: 12em;
     margin-right: 1.5em;
 
 }
@@ -46,7 +47,7 @@ html {
     font-weight: 400;
     display: block;
     justify-content: space-around;
-    font-size: 2em;
+    font-size: 1.5em;
     transition: transform 0.3s ease-in-out
 }
 
@@ -283,3 +284,30 @@ button:hover {
 }
 
 /* -------------------- FIM - FOOTER ---------------------- */
+
+@media screen and (max-width: 425px) {
+
+    .header-menu{
+        flex-direction: column;
+        margin-top: 1em;
+        
+    } 
+    
+    .header-marca{
+        
+        margin: auto;
+    }
+
+    .titulo-principal{
+        font-size: 3em;
+    }
+
+    .titulo-secundario{
+        font-size: 2.3em;
+        padding: .5em;
+    }
+
+    .sobre-nos{
+        padding: 1em;
+    }
+}
