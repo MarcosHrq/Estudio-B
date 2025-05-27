@@ -51,7 +51,7 @@ html {
 }
 
 .menu-item:hover{
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     
 }
 
