@@ -60,6 +60,12 @@ html {
 
 /* -------------------- INÍCIO - HERO AREA ---------------------- */
 
+.area-principal{
+    width: 100%;
+}
+
+
+
 .titulo-principal{
     background-color: var(--cor-principal);
     color:var(--cor-texto-fundo) ;
