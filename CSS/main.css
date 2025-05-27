@@ -124,11 +124,11 @@ html {
 }
 .projeto-card{
     width: 28.13em;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
-.projeto-card:hover{
+/* .projeto-card:hover{
      transform: translateY(-10px);
-}
+} */
 .img-container{
     display: flex;
     flex-wrap: wrap;
@@ -289,13 +289,14 @@ button:hover {
 
     .header-menu{
         flex-direction: column;
-        margin-top: 1em;
+        margin-top: 2em;
         
     } 
     
     .header-marca{
         
         margin: auto;
+        width: 14em;
     }
 
     .titulo-principal{
@@ -309,5 +310,84 @@ button:hover {
 
     .sobre-nos{
         padding: 1em;
+    }
+
+    .menu-item{
+        text-align:start;
+        font-size: 1.1em;
+    }
+
+    .header{
+        align-items: start;
+    }
+
+    ul{
+        margin: auto;
+    }
+
+    .nav-menu{
+        margin: auto;
+    }
+
+    .imagem-principal{
+        height: auto;
+    }
+
+    .titulo-principal{
+        text-align: center;
+        padding: .4em;
+        font-size: 2em;
+    }
+
+    .titulo-secundario{
+        padding: .4em;
+        font-size: 2em;
+    }
+
+    .header-menu{
+        display: flex;
+        gap: 2em;
+        justify-content: space-around; 
+        margin-right: 1em;
+
+    }
+
+    .paragrafo{
+        margin: 1em;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .img-container{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    .img-container img{
+        width: 400px;
+        height: auto;
+        scroll-snap-align: center;
+        border-radius: 8px;
+        /* flex-shrink: 0; */
+        align-items: center;
+    }
+
+    .pergunta{
+        font-size: 1.5em;
+        margin-top: 1.5em;
+    }
+
+    .resposta{
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .contato{
+        padding: 2em;
     }
 }
