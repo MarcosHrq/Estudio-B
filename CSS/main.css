@@ -288,7 +288,7 @@ button:hover {
 @media screen and (max-width: 425px) {
 
     .header-menu{
-        flex-direction: column;
+        /* flex-direction: column; */
         margin-top: 2em;
         
     } 
@@ -321,12 +321,12 @@ button:hover {
         align-items: start;
     }
 
-    ul{
+    /* ul{
         margin: auto;
-    }
+    } */
 
     .nav-menu{
-        margin: auto;
+        /* margin: auto; */
     }
 
     .imagem-principal{
